@@ -1,0 +1,103 @@
+body{
+    margin:0;
+    display: grid;
+    background-image: linear-gradient(rgb(233, 81, 21),rgb(241, 173, 47), rgb(233, 233, 100));
+    background-repeat: no-repeat;
+    background-size: cover;
+min-height: 100vh;
+
+}
+@media screen and (min-width: 1180px) {
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}}
+
+/* Dropzone */
+@media screen and (min-width: 1180px) {
+.dropzone{
+    padding: 1px;
+    margin: 10px ;
+   width: 30rem;
+   height: 30rem;
+   background-color: rgb(168, 229, 229,0.9) ;
+  
+   border: 4px dashed gray;
+}}
+/* Dropzone */
+@media screen and (max-width: 1180px) {
+    .dropzone{
+        padding: 1px;
+        margin: 10px auto ;
+       width: 80vw;
+       height: 60vh;
+       background-color: rgb(168, 229, 229,0.9) ;
+       border: 4px dashed gray;
+    }}
+
+
+   /* Pickup Zone */
+    @media screen and (min-width: 1180px) {
+.container{
+    background-color: #b8b1b1ef;
+    padding: 1px;
+    margin: 10px ;
+   width: 30rem;
+   height: 30rem;
+   border: 4px dashed rgb(238, 235, 235);
+}}
+/* Pickup Zone */
+@media screen and (max-width: 1180px) {
+    .container{
+        background-color: #b8b1b1ef;
+        padding: 1px;
+        margin: 10px auto;
+       width: 80vw;
+       height: 60vh;
+       border: 4px dashed rgb(238, 235, 235);}
+}
+.box h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+/* Draggable */
+.draggable{
+    margin: 10px 7px;
+    padding: 10px;
+    background-color: azure;
+    width: 4rem;
+    cursor: move;
+    }
+
+    .draggable.dragging{
+        opacity: .5;
+    }
+    .draggable.success{
+        border: 2px solid green;
+    } 
+/* Button */
+    .btn{
+        padding: 10px;
+        height: fit-content;
+        width: fit-content;
+        font-size: large;
+        margin: 7px auto;
+        background-color: rgb(237, 46, 46);
+        color: whitesmoke;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+    .btn:hover{
+           transform: translateY(-4px);
+    }
+
+    .heading{
+        text-align: center;
+        font-weight: bolder;
+        font-size: 50px;
+        margin-top: 5rem;
+    }
